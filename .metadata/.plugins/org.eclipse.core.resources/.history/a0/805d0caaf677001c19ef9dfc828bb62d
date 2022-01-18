@@ -1,0 +1,9 @@
+package services;
+
+public class OnlinePaymentService extends RuntimeException {
+	private static final long serialVersionUID = 1L;
+
+	public OnlinePaymentService(String msg) {
+		super(msg);
+	}
+}

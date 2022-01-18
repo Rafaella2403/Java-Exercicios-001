@@ -1,0 +1,9 @@
+package services;
+
+public class PaypalService extends RuntimeException {
+	private static final long serialVersionUID = 1L;
+
+	public PaypalService(String msg) {
+		super(msg);
+	}
+}

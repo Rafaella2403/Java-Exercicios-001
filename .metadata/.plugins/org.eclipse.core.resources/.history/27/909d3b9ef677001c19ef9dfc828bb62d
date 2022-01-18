@@ -1,0 +1,9 @@
+package services;
+
+public class ContractService extends RuntimeException {
+	private static final long serialVersionUID = 1L;
+
+	public ContractService(String msg) {
+		super(msg);
+	}
+}
